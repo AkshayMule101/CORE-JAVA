@@ -29,7 +29,7 @@ class MathOperation
  }
 }
 
-class MathOpOverloading
+class Q35
 {
 	public static void main(String args[])
 	{
