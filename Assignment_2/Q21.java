@@ -1,24 +1,27 @@
-//21.	Program to show sum and average of 10 element array. Accept array elements from user. 
+/*21.Program to show sum and average of 10 element array. Accept array elements from user*/
 import java.util.Scanner;
 class Q21{
 	
-	public static void main(String abc[])
-	{
-		int sum=0;
-		Scanner sc=new Scanner(System.in);
-		int arr[]=new int[10];
-		System.out.println("Enter ele in array");
-		for(int i=0;i<10;i++)
+	public static void main(String args[]){
+		
+		
+ 		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter any num1");
+		int arr[] = new int[10];
+		
+		for(int i=0; i< arr.length; i++)
 		{
+			arr[i] = sc.nextInt();
 			
-			arr[i]=sc.nextInt();
 		}
-		for(int i=0;i<10;i++)
+		System.out.println("*****************");
+		for(int a : arr)
 		{
-			sum=sum+arr[i];
+			System.out.println(a);
 		}
-		System.out.println("Sum is= " +sum);
-		int avg=sum/10;
-		System.out.println("avg is= " +avg);
 	}
+	
 }
+
+
+

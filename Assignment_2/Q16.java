@@ -1,15 +1,21 @@
-/*16.	Write a program to print table of any entered number using loop*/
+/*16.	Write a program to print table of any entered number using loop.*/
 
-import java.util.Scanner;
+import java.util.*;
 class Q16{
-	public static void main(String args[]){
-	Scanner  sc = new Scanner(System.in);   
-System.out.println("Enter any number");
-   int n = sc.nextInt();
-
-	 for(int i=1;i<=10;i++){
-    int c=n*i;
-	 System.out.println(c);
-      }
-   }
+	
+	public static void main(String[] args){
+		int num,i;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter any number");
+		
+		num = sc.nextInt();
+		
+		for(i=1; i<11; i++)
+		{
+			int j = num * i;
+			
+			System.out.println(j);
+		}
+	}
 }
+	
